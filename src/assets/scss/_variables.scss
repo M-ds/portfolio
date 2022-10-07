@@ -1,0 +1,29 @@
+// Colours
+$initial-colour: #ffffff;
+$primary-colour: #9b4dca;
+$secondary-colour: #C2C1C118;
+$tertiary-colour: #606c76;
+
+$font-colour: #111111;
+$secondary-fore-colour: #606c76;
+$background-primary-colour: #ffffff;
+
+// margin & padding;
+$global-margin: .5rem;
+$global-padding: .5rem;
+
+// Grid configs
+$grid-gap: .5rem;
+
+// Fonts
+/*
+ Because we have set the _main.scss :root element to font-size:62.5%. 1 rem will be 10px.
+ By default the 1 rem = 16px.
+ */
+$font-style: Roboto, Helvetica, sans-serif;
+$font-size: 1.6rem;
+$font-size-title: $font-size * 3;
+$font-size-secondary-title: 2rem;
+
+// Widths
+$max-width: 100%;

@@ -1,0 +1,18 @@
+@import '_variables.scss';
+
+:root {
+  font-size: 62.5%;
+
+  body {
+    max-width: $max-width;
+    font-family: $font-style;
+    font-size: $font-size;
+    background: $background-primary-colour;
+    color: $font-colour;
+  }
+}
+
+* {
+  color: inherit;
+  margin: 0;
+}

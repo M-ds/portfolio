@@ -54,6 +54,7 @@
     <h3>Essential Links</h3>
     <ul>
       <li>
+        {**/*,*}.{js,ts,jsx,tsx,vue}
         <a href="https://vuejs.org" target="_blank" rel="noopener">Core Docs</a>
       </li>
       <li>
