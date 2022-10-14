@@ -1,12 +1,18 @@
 // Colours
-$initial-colour: #ffffff;
-$primary-colour: #9b4dca;
-$secondary-colour: #C2C1C118;
-$tertiary-colour: #606c76;
+$primary-color: #845EC2;
+$secondary-color: #C34A36;
+$tertiary-color: #ff8066;
+
+//$dark-purple: #30011e;
+//$tea-green: #d7fcd4;
+//$laurel-green: #b6cca1;
+//$dark-goldenrod: #b68f40;
+//$davys-grey: #545454;
 
 $font-colour: #111111;
 $secondary-fore-colour: #606c76;
-$background-primary-colour: #ffffff;
+$background-primary-colour: #b0a8b9;
+$background-secondary-colour: #4b4453;
 
 // margin & padding;
 $global-margin: .5rem;
@@ -27,3 +33,4 @@ $font-size-secondary-title: 2rem;
 
 // Widths
 $max-width: 100%;
+$max-height: 100%;

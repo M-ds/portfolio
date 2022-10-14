@@ -1,4 +1,8 @@
 @import '_variables.scss';
+@import '_nav.scss';
+@import '_breakpoints.scss';
+@import '_text.scss';
+@import '_layout.scss';
 
 :root {
   font-size: 62.5%;
@@ -7,8 +11,8 @@
     max-width: $max-width;
     font-family: $font-style;
     font-size: $font-size;
-    background: $background-primary-colour;
     color: $font-colour;
+    background: $background-primary-colour;
   }
 }
 
