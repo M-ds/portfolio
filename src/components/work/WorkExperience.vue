@@ -1,5 +1,6 @@
 <script setup lang="ts">
-import {WorkExperience} from "@/components/work/TimelineType";
+import { WorkExperience } from "@/components/work/TimelineType";
+import SectionTitle from "@/components/common/SectionTitle.vue";
 
 const timeline: WorkExperience[] = [
   {
@@ -58,6 +59,7 @@ const timeline: WorkExperience[] = [
 </script>
 
 <template>
+  <section-title :title="'Work Experience'"/>
   <v-timeline align="start">
     <v-timeline-item
       v-for="(experience, i) in timeline"
@@ -83,7 +85,3 @@ const timeline: WorkExperience[] = [
     </v-timeline-item>
   </v-timeline>
 </template>
-
-<style scoped>
-
-</style>
